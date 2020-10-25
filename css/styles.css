@@ -6,34 +6,32 @@
     max-width: 50%;
     margin: 20px auto;
     height: 40vh;
-  }
-  
-  #input-section {
+}
+
+#input-section {
     margin: 20px auto;
     text-align: center;
     width: 100%;
     ;
-  }
-  
-  #input {
+}
+
+#input {
     margin-right: 5px;
-  }
-  
-  #input:focus {
+}
+
+#input:focus {
     border: none;
-  }
-  
-  #button,
-  #input {
+}
+
+#button, #input {
     background-color: #fef;
     border-radius: 15px;
-  }
-  
-  .strike {
+}
+
+.strike {
     text-decoration: line-through;
-  }
-  
-  .delete {
+}
+
+.delete {
     display: none;
-  }
-  
+}
