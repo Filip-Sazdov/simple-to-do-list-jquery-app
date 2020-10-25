@@ -1,0 +1,39 @@
+.container {
+    border: 2px solid #fef;
+    border-radius: 15px;
+    background-color: #ddd;
+    min-width: 300px;
+    max-width: 50%;
+    margin: 20px auto;
+    height: 40vh;
+  }
+  
+  #input-section {
+    margin: 20px auto;
+    text-align: center;
+    width: 100%;
+    ;
+  }
+  
+  #input {
+    margin-right: 5px;
+  }
+  
+  #input:focus {
+    border: none;
+  }
+  
+  #button,
+  #input {
+    background-color: #fef;
+    border-radius: 15px;
+  }
+  
+  .strike {
+    text-decoration: line-through;
+  }
+  
+  .delete {
+    display: none;
+  }
+  
