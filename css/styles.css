@@ -42,15 +42,17 @@
 }
 
 p {
-    width: 80%;
+    width: 90%;
     box-sizing: border-box;
     margin: 0 auto;
-    text-align: inherit;
+    text-align: left;
     font-size: 0.8em;
+    border: 1px solid red;
 }
 
 .strike {
     text-decoration: line-through;
+    background: none;
 }
 
 .delete {
@@ -58,7 +60,14 @@ p {
 }
 
 .list-item {
-    width: 100%;
-    margin-bottom: 5px;
-    ;
+    width: 90%;
+    margin: 5px 15px 5px 0px;
+    cursor: pointer;
+    background-color: lightcoral;
+    padding: 10px 10px 10px 10px;
+}
+
+span {
+    float: right;
+    cursor: pointer;
 }
