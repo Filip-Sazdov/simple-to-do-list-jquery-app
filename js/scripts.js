@@ -36,7 +36,7 @@ function addListItemToList() {
 	//after inputting data, clear input box and give it back focus so user can continue typing
 	$("#input").val("").focus();
 }
-
+//Use click to input data
 inputButton.click(addListItemToList);
 //Use Enter key to input data
 $("#input").on("keyup", function (e) {
