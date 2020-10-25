@@ -42,12 +42,11 @@
 }
 
 p {
-    width: 90%;
+    width: 80%;
     box-sizing: border-box;
     margin: 0 auto;
     text-align: left;
     font-size: 0.8em;
-    border: 1px solid red;
 }
 
 .strike {
@@ -64,7 +63,8 @@ p {
     margin: 5px 15px 5px 0px;
     cursor: pointer;
     background-color: lightcoral;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 span {

@@ -23,11 +23,12 @@ function addListItemToList() {
 	} else {
 		let li = $('<li class="list-item" ></li>')
 			.text(inputValue)
-			.on("click", function () {
+			.on("dblclick", function () {
 				$(this).toggleClass("strike");
 			});
 		let span = $("<span>X<span>").on("click", function () {
-			li.addClass("delete");
+			li.fadeOut();
+			// .addClass("delete");
 		});
 		li.append(span);
 		list.append(li);
