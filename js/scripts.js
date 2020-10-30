@@ -7,7 +7,6 @@ let input = $(
 let inputButton = $('<button id = "button">Click to Enter Task</button>');
 let para = $("<p></p>");
 let list = $("<ol></ol>");
-
 para.append(list);
 inputSection.append(input);
 inputSection.append(inputButton);
@@ -21,11 +20,10 @@ function addListItemToList() {
 	if (inputValue === "" || undefined) {
 		alert("You have not entered a task");
 	} else {
-		let li = $('<li class="list-item" ></li>')
-			.text(inputValue)
-			.on("dblclick", function () {
-				$(this).toggleClass("strike");
-			});
+		let li = $('<li class="list-item" ></li>');
+		li.text(inputValue).on("dblclick", function () {
+			$(this).toggleClass("strike");
+		});
 		let span = $("<span>X<span>").on("click", function () {
 			li.fadeOut();
 			// .addClass("delete");
@@ -38,6 +36,7 @@ function addListItemToList() {
 }
 //Use click to input data
 inputButton.click(addListItemToList);
+
 //Use Enter key to input data
 $("#input").on("keyup", function (e) {
 	//13  means enter button
